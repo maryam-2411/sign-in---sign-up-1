@@ -46,7 +46,7 @@ def sign_in():
         win1 = tk.Tk()
         win1.geometry('250x250')
         win1.title("Welcome")
-        lbl_welcome = tk.Label(win1, text="Welcome to the system!", font='arial 15 bold')
+        lbl_welcome = tk.Label(win1, text="Hi,Welcome!", font='arial 15 bold')
         lbl_welcome.pack()
         win1.mainloop()
     else:
